@@ -101,7 +101,6 @@ body {
 .site-menu {
     display: inline-block;
     display: flex;
-    /* margin-left: auto; */
 }
 
 .site-menu .item+.item {
@@ -152,7 +151,6 @@ body {
 }
 
 /* hero */
-/* Добавли padding 200 для hero */
 .hero {
     padding: 200px 0px 200px 0px;
 
@@ -206,7 +204,6 @@ text-transform: uppercase;
         }
         
 /* Features */
-/* Обнулил margin h3 */
 .feature .title {
     margin: 0;
 }
@@ -277,7 +274,6 @@ text-transform: uppercase;
 }
 .team .item {
     margin-right: 30px;
-    /* margin-bottom: 10px; */
     width: calc((100% - 90px) / 4);
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -318,11 +314,6 @@ margin-bottom: 10px;
 .footer .logo-studio{
     color: var(--primary-background-color);
 }
-
-/* удалил */
-/* .address {
-    padding-bottom: 60px;
-} */
 
 .address .text {
     margin: 0;
