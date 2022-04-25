@@ -39,6 +39,11 @@ html {
     /* outline: 3px solid tomato; */
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+}
+
 body {
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
@@ -71,10 +76,6 @@ body {
 }
 
 
-.container.flex {
-    display: flex;
-    align-items: center;
-    }
 /* Logo */
 .logo {
     margin-right: 93px;
@@ -95,6 +96,10 @@ body {
     color: #000000;
 }
 /* site-nav */
+.site-nav {
+    display: flex;
+    align-items: center;
+}
 
 /* site-menu */
 
